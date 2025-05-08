@@ -15,7 +15,7 @@ Type interface is helpful cause:
 
 7/ 
 
-// Union type example------------------------------
+//------------------------ //Union type example------------------------------
 
 type StringOrNumber = string | number;
 
@@ -29,7 +29,8 @@ printId("ABC123"); // Works - string is allowed
 
 // printId(true); // Error - boolean not in the union
 
-// Intersection type example --------------------------------
+
+// ---------------------------//Intersection type example --------------------------------
 
 interface Employee {
 name: string;
